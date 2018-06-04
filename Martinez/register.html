@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="martinez.css">
+    <title>Brew City Games Register</title>
+    <style>
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+        * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 500px;
+  top: -1156px;
+  right:-22%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: whitesmoke;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color:whitesmoke;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid goldenrod;
+  margin-bottom: 50px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: rgb(29, 29, 129);
+  color: white;
+  padding: 4px 4px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: rgb(10, 10, 10);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: gray;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+        <div class="topnav">
+                <a class="active" href="login.html">Login</a>
+                <a href="register.html">Register</a>
+                <a href="index.html">Home</a>
+       </div>
+         <img src="mbgrbg.jpg"width="1366" height="800" >
+        <div>
+<form action="login.html">
+        <div class="container">
+            <h1>Register</h1>
+            <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email"
+    name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" 
+    name="psw" required>
+
+        <label for="psw-repeat">Repeat Password<b></label>
+        <input type="password" placeholder="repeat password"
+    name=psw-repeat required>
+        <hr>
+
+        <p>By creating an acoount you agree to our <a
+        href="#">Terms & Privacy</a></p>
+        <button type="submit"
+    class="registerbtn">Register</button>
+      </div>
+
+       <div class="container signin">
+       <p>Already have an account? <a href="#">Sign in</a>
+       </p>
+       </div>
+       </form>
+            
+   
+        
+       <script src="martinez.js"></script>      
+</body>
+</html>
